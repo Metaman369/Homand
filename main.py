@@ -4,6 +4,7 @@ import os
 
 app = Flask(__name__)
 
+# GEMINI_API_KEY از .env خوانده می‌شود
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_MODEL = "gemini-2.5-flash"
 
